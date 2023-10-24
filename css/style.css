@@ -1,0 +1,109 @@
+/*Define a fonte para todos*/
+*{
+    font-family: 'Roboto', sans-serif; /*Define a Fonte Roboto*/
+}
+
+@media screen and (max-width:1440px) {
+
+    /*Define o HTML*/
+    html{
+        width: 100%; /*Define a Largura como 100%*/
+        height: 100em; /*Define a altura pra tela inteira*/
+        background-color: #303030; /*Define a Cor de Fundo*/
+    }
+
+    /*Define o padrão para o título*/
+    #titulo{
+        text-align: center; /*Alinha o texto ao centro*/
+        margin-bottom: 3em; /*Dá uma margem no Input*/
+        color: #fafafa; /*Cor da Fonte*/
+    }
+
+    /*Define padrão para o Input*/
+    #adivinhar-numero{
+        display: flex; /*Divide a Tela*/
+        margin-bottom: 4em;
+    }
+
+    /*Define a Input*/
+    #number{
+        margin-left: 1em; /*Define uma margem*/
+        width: 80%; /*Define a Largura*/
+        height: 28px; /*Altura do Input*/
+        margin-top: 1.2em; /*Define a Margem pro Topo*/
+        background-color: #101010; /*Cor de Fundo da Input*/
+        color: #fafafa; /*Cor da Fonte*/
+        font-weight: 500; /*Define o peso da fonte*/
+        font-size: 20px; /*Define o tamanho da fonte*/
+    }
+
+    /*Define o Paragrafo*/
+    p{
+        font-size: 20px; /*Tamanho da Fonte*/
+        color: #fafafa; /*Define a cor da Fonte*/
+    }
+
+    /*Define o Padrão para o Botão*/
+    #btn{
+        background-color: rgb(70, 123, 239); /*Cor de Fundo*/
+        color: #eeeeee; /*Cor da Fonte*/
+        border-radius: 0.25em; /*Arredonda a Borda*/
+        border-color: #eeeeee; /*Cor da Borda*/
+        border-width: 0.05em; /*Espessura da Borda*/
+        font-size: 16px; /*Tamanho da Fonte*/
+        font-weight: 600; /*Peso da Fonte*/
+    }
+
+}
+
+@media screen and (min-width:1441px) {
+    /*Define o HTML*/
+    html{
+        width: 100%; /*Define a Largura como 100%*/
+        height: 100em; /*Define a altura pra tela inteira*/
+        background-color: #303030; /*Define a Cor de Fundo*/
+    }
+
+    /*Define o padrão para o título*/
+    #titulo{
+        text-align: center; /*Alinha o texto ao centro*/
+        margin-bottom: 3em; /*Dá uma margem no Input*/
+        color: #fafafa; /*Cor da Fonte*/
+        font-size: 48px;
+    }
+
+    /*Define padrão para o Input*/
+    #adivinhar-numero{
+        display: flex; /*Divide a Tela*/
+        margin-bottom: 8em;
+    }
+
+    /*Define a Input*/
+    #number{
+        margin-left: 1em; /*Define uma margem*/
+        width: 80%; /*Define a Largura*/
+        height: 48px; /*Altura do Input*/
+        margin-top: 1.2em; /*Define a Margem pro Topo*/
+        background-color: #101010; /*Cor de Fundo da Input*/
+        color: #fafafa; /*Cor da Fonte*/
+        font-weight: 500; /*Define o peso da fonte*/
+        font-size: 20px; /*Define o tamanho da fonte*/
+    }
+
+    /*Define o Paragrafo*/
+    p{
+        font-size: 32px; /*Tamanho da Fonte*/
+        color: #fafafa; /*Define a cor da Fonte*/
+    }   
+
+    /*Define o Padrão para o Botão*/
+    #btn{
+        background-color: rgb(70, 123, 239); /*Cor de Fundo*/
+        color: #eeeeee; /*Cor da Fonte*/
+        border-radius: 0.25em; /*Arredonda a Borda*/
+        border-color: #eeeeee; /*Cor da Borda*/
+        border-width: 0.05em; /*Espessura da Borda*/
+        font-size: 28px; /*Tamanho da Fonte*/
+        font-weight: 600; /*Peso da Fonte*/
+    }
+}
